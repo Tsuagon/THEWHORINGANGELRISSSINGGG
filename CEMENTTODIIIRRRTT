@@ -25,7 +25,7 @@ SettingsTab:NewButton("Toggle Perma Death", "PermaDeath / Simple", function()
 	end
 end, true)
 
-getgenv()._reanimate = loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/reanim.lua'))()
+getgenv()._reanimate = loadstring(game:HttpGet('https://raw.githubusercontent.com/Tsuagon/deargodthisisalot/main/pleasehelpme'))()
 
 local Players = game:GetService("Players")
 
@@ -73,6 +73,7 @@ end)
 ScriptsTab:NewButton("Mysterious White Giant Stand", "A basic Stand that just punches things.", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Tsuagon/oorraaaaaa/main/WHO%20WANT%20SOME%20OF%20THIS"))()
 end)
+
 ScriptsTab:NewButton("Frieza", "The Emperor of the Galaxy himself.", function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Tsuagon/FRIEZATWOSTRIKESBACK/main/THEYALLLOOKTHESAME"))()
 end)
@@ -545,7 +546,7 @@ anim:NewButton('Play','it plays the id you just put above yay', function()
 	local aaa = 'rbxassetid://' .. id:GetText()
 
 	if (not getgenv().CloneRig) or game.Players.LocalPlayer.Character ~= getgenv().CloneRig then
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Tsuagon/IMJUSTTRYINGTOARCHIVETHISPLEASESTOP/main/AAAAAAAAAAAAAA'))()
 	end
 
 	local NeededAssets = game:GetObjects(aaa)[1]
