@@ -7,7 +7,7 @@ getgenv().Reanimation = getgenv().Reanimation or "PermaDeath"
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))()
 
 
-local Pendulum = Library:New("Pendulum Hub")
+local Pendulum = Library:New("Skidagon Hub")
 local UserInputService = game:GetService("UserInputService")
 local SettingsTab = Pendulum:NewTab("Settings")
 local CreditsTab = Pendulum:NewTab("Credits")
@@ -32,11 +32,6 @@ local Players = game:GetService("Players")
 -- Script Buttons
 
 ScriptsTab:NewSearchBar()
-ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
-	loadstring(game:HttpGetAsync("https://bit.ly/34oqvdH"))()
-end)
-
-
 
 ScriptsTab:NewButton("Sonic", "All other versions don't fling except this one.", function()
 	loadstring(game:HttpGetAsync("https://bit.ly/3Cmw7BP"))()
@@ -62,24 +57,12 @@ ScriptsTab:NewButton("The Emperor", "A simple Stand for the best minor villain i
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Tsuagon/BUMBUMTHEE/main/RWESAZRWEF3AS"))()
 end)
 
-ScriptsTab:NewButton("Minigun", "Have fun spraying skids.", function()
-	loadstring(game:HttpGetAsync("https://bit.ly/3Cqns13"))()
-end)
-
-ScriptsTab:NewButton("Corrupted Overseer", "My favorite script.", function()
-	loadstring(game:HttpGetAsync("https://bit.ly/3q8ECf5"))()
-end)
-
 ScriptsTab:NewButton("Darth Vadar", "For the star wars fans.", function()
 	loadstring(game:HttpGetAsync("https://bit.ly/3vPlhD8"))()
 end)
 
 ScriptsTab:NewButton("Gale Fighter", "Another classic!", function()
 	loadstring(game:HttpGetAsync("https://bit.ly/3ClMnTL"))()
-end)
-
-ScriptsTab:NewButton("Doomspire Brickbattler", "For people who say that old roblox is better.", function()
-	loadstring(game:HttpGetAsync("https://bit.ly/35UvALg"))()
 end)
 
 ScriptsTab:NewButton("Dark Magic", "If you've played Black Magic you'll love this script.", function()
