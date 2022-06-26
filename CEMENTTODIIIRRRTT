@@ -4,7 +4,7 @@ end
 getgenv().Reanimation = getgenv().Reanimation or "PermaDeath"
 
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shidemuri/scripts/main/ui_lib.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuagon/justincase/main/itgoesdown"))()
 
 
 local Pendulum = Library:New("Pendulum Hub")
