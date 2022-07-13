@@ -39,7 +39,7 @@ end)
 
 
 ScriptsTab:NewButton("Sonic", "All other versions don't fling except this one.", function()
-	loadstring(game:HttpGetAsync("https://bit.ly/3Cmw7BP"))()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Tsuagon/HE-SREADYTOGO/main/WTERTFWES"))()
 end)
 
 ScriptsTab:NewButton("Joy", "Its got some cute stufff", function()
